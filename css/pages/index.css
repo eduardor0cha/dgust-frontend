@@ -1,6 +1,5 @@
-html,
-body {
-  height: 100%;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,6 +34,7 @@ main {
 }
 
 .card {
+  scroll-margin-top: 6rem;
   width: 50%;
   max-width: 50rem;
   margin: 1rem;
