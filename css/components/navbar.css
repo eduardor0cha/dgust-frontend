@@ -5,6 +5,7 @@
   background-color: var(--red);
   display: flex;
   align-items: center;
+  color: var(--white);
 }
 
 #navbar-logo {
