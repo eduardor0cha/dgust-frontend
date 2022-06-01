@@ -60,11 +60,18 @@ main {
 }
 
 .external-link {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   padding: 1rem;
   border-radius: 0.5rem;
   margin: 0.5rem 0;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 100%;
+  font-size: 1.5rem;
 }
 
 #link-ifood {
@@ -75,7 +82,8 @@ main {
   background-color: #9b4dee;
 }
 
-#horaries p {
+#horaries p,
+#localization {
   font-size: 2rem;
   margin: 1rem 0;
 }
@@ -85,14 +93,52 @@ main {
   flex-direction: column;
 }
 
+#link-whatsapp img,
+#link-instagram img,
+#link-facebook img,
+#link-maps img {
+  margin-right: 1rem;
+  height: 2rem;
+}
+
 #link-whatsapp {
-  background-color: green;
+  background-color: #128c7e;
 }
 
 #link-instagram {
-  background-color: pink;
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
 }
 
 #link-facebook {
-  background-color: blue;
+  background-color: #3982e4;
+}
+
+#link-maps {
+  background-color: #1a73e8;
+  margin-top: 2rem;
 }
