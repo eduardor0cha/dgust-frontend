@@ -74,6 +74,10 @@ main {
   font-size: 1.5rem;
 }
 
+.external-link:hover {
+  transform: translateY(-0.2rem);
+}
+
 #link-ifood {
   background-color: #ea1d2c;
 }
