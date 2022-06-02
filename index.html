@@ -3,24 +3,106 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <title>D'gust</title>
   </head>
   <body>
     <nav id="navbar">
       <a href="/" id="navbar-logo">
-        <img src="./img/logo/logo--wt-y-text.svg" />
+        <img src="/img/logo/logo--wt-y-text.svg" />
       </a>
       <div id="navbar-page-links">
         <a class="navbar-link active" href="/">Início</a>
-        <a class="navbar-link" href="/">Cardápio</a>
-        <a class="navbar-link" href="/">Quem somos</a>
+        <a class="navbar-link" href="/cardapio.html">Cardápio</a>
       </div>
       <div id="navbar-anchor-links">
-        <a class="navbar-link" href="#">Pedidos</a>
-        <a class="navbar-link" href="#">Horário</a>
-        <a class="navbar-link" href="#">Contato</a>
+        <a class="navbar-link" href="#where-order">Onde pedir</a>
+        <a class="navbar-link" href="#working-period">Horário</a>
+        <a class="navbar-link" href="#contact">Contato</a>
+        <a class="navbar-link" href="#localization">Localização</a>
       </div>
     </nav>
+    <main>
+      <div id="banner">
+        <img src="/img/logo/logo-rd-wt-text.svg" />
+      </div>
+      <div id="where-order" class="card">
+        <h2>Onde pedir?</h2>
+        <a
+          id="link-ifood"
+          class="external-link"
+          href="https://www.ifood.com.br/delivery/arapiraca-al/dgust-lanchonete-centro/"
+          target="_blank"
+        >
+          <img src="/img/brands/ifood-logo.svg" />
+        </a>
+        <a
+          id="link-querodelivery"
+          class="external-link"
+          href="https://bit.ly/Dgust-querodelivery"
+          target="_blank"
+        >
+          <img src="/img/brands/querodelivery-logo.svg" />
+        </a>
+      </div>
+      <div id="working-period" class="card">
+        <h2>Horário de funcionamento</h2>
+        <div id="horaries">
+          <p>Domingo: 16:00–23:30</p>
+          <p>Segunda-feira: 08:00–23:30</p>
+          <p>Terça-feira: 08:00–23:30</p>
+          <p>Quarta-feira: 08:00–23:30</p>
+          <p>Quinta-feira: 08:00–23:30</p>
+          <p>Sexta-feira: 08:00–23:30</p>
+          <p>Sábado: 08:00–23:30</p>
+        </div>
+      </div>
+      <div id="contact" class="card">
+        <h2>Contato e redes sociais</h2>
+        <a
+          id="link-whatsapp"
+          class="external-link"
+          href="https://api.whatsapp.com/message/ARQ5HKTTVCUAG1"
+          target="_blank"
+        >
+          <img src="/img/icons/whatsapp-icon.svg" />
+          <span>(82) 9 9926-7018</span>
+        </a>
+        <a
+          id="link-instagram"
+          class="external-link"
+          href="https://www.instagram.com/dgustarapiraca/"
+          target="_blank"
+        >
+          <img src="/img/icons/instagram-icon.svg" />
+          <span>dgustarapiraca</span>
+        </a>
+        <a
+          id="link-facebook"
+          class="external-link"
+          href="https://www.facebook.com/DGust-lanchonete-e-caf%C3%A9-expresso-146274929331165/"
+          target="_blank"
+        >
+          <img src="/img/icons/facebook-icon.svg" />
+          <span>D'Gust lanchonete e café expresso</span>
+        </a>
+      </div>
+      <div id="localization" class="card">
+        <h2>Localização</h2>
+        <p>
+          Praça Dep. Marques da Silva - Centro, Arapiraca - AL, 57300-330,
+          Brasil
+        </p>
+        <a
+          id="link-maps"
+          class="external-link"
+          href="https://goo.gl/maps/nYescYMF9Q4jhP9Y9"
+          target="_blank"
+        >
+          <img src="/img/icons/maps-icon.svg" />
+          <span>Abrir no Maps</span>
+        </a>
+      </div>
+    </main>
   </body>
 </html>
