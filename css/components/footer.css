@@ -1,0 +1,10 @@
+#footer {
+  height: 5rem;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: bold;
+}
