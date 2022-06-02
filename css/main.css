@@ -3,6 +3,7 @@
 @import "./base/reset.css";
 @import "./base/topography.css";
 
+@import "./components/footer.css";
 @import "./components/navbar.css";
 
 @import "./pages/index.css";
