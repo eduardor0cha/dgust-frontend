@@ -18,3 +18,23 @@
 .product-category {
   margin: 1rem 0;
 }
+
+.product-category-title {
+  font-weight: bold;
+  display: flex;
+}
+
+.product-category-title img {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.products-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.product {
+  background-color: white;
+  border-radius: 0.5rem;
+}

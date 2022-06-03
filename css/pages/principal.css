@@ -72,18 +72,23 @@ body {
   font-weight: bold;
   font-size: 100%;
   font-size: 1.5rem;
-}
-
-.external-link:hover {
-  transform: translateY(-0.2rem);
+  transition: background-color 0.1s ease-in-out;
 }
 
 #link-ifood {
   background-color: #ea1d2c;
 }
 
+#link-ifood:hover {
+  background-color: #d8202d;
+}
+
 #link-querodelivery {
   background-color: #9b4dee;
+}
+
+#link-querodelivery:hover {
+  background-color: #8c47d6;
 }
 
 #horaries p,
@@ -109,40 +114,32 @@ body {
   background-color: #128c7e;
 }
 
+#link-whatsapp:hover {
+  background-color: #117c70;
+}
+
 #link-instagram {
-  background: radial-gradient(
-      circle farthest-corner at 35% 90%,
-      #fec564,
-      transparent 50%
-    ),
-    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
-    radial-gradient(
-      ellipse farthest-corner at 20% -50%,
-      #5258cf,
-      transparent 50%
-    ),
-    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
-    radial-gradient(
-      ellipse farthest-corner at 60% -20%,
-      #893dc2,
-      transparent 50%
-    ),
-    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
-    linear-gradient(
-      #6559ca,
-      #bc318f 30%,
-      #e33f5f 50%,
-      #f77638 70%,
-      #fec66d 100%
-    );
+  background-color: #cb2770;
+}
+
+#link-instagram:hover {
+  background-color: #b62466;
 }
 
 #link-facebook {
   background-color: #3982e4;
 }
 
+#link-facebook:hover {
+  background-color: #3476cc;
+}
+
 #link-maps {
   background-color: #1a73e8;
+  margin-top: 2rem;
+}
+
+#link-maps:hover {
+  background-color: #1968cf;
   margin-top: 2rem;
 }
