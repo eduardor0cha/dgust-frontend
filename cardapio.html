@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="icon" href="/img/logo/logo.svg" />
+    <script type="text/javascript" src="./js/cardapio.js"></script>
+    <title>Cardápio</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="/" id="navbar-logo">
+        <img src="/img/logo/logo--wt-y-text.svg" />
+      </a>
+      <div id="navbar-page-links">
+        <a class="navbar-link" href="/">Início</a>
+        <a class="navbar-link active" href="/cardapio.html">Cardápio</a>
+      </div>
+    </nav>
+    <main id="menu-main">
+      <div id="products-select-container">
+        <label>Filtrar categoria</label>
+        <select id="products-select" onchange="filterCategories()">
+          <option value="all">Todas</option>
+          <option value="sandwiches">Sanduíches</option>
+          <option value="homemade-sandwiches">Sanduíches caseiros</option>
+          <option value="juices-and-smoothies">Sucos e vitaminas</option>
+          <option value="drinks">Bebidas</option>
+        </select>
+      </div>
+      <div class="product-category" data-item="sandwiches">
+        <div class="product-category-title">
+          <img src="./img/icons/hamburger-icon.svg" />
+          <h2>Sanduíches</h2>
+        </div>
+        <div class="products-container">
+          <div class="product">
+            <img
+              class="product-image"
+              src="./img/sandwiches/generic-burger.jpg"
+            />
+            <div class="product-info">
+              <h3>1. Queijo</h3>
+              <h4>R$ 7,00</h4>
+              <p>Queijo mussarela</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-category" data-item="homemade-sandwiches">
+        <div class="product-category-title">
+          <img src="./img/icons/hamburger-icon.svg" />
+          <h2>Sanduíches caseiros</h2>
+        </div>
+      </div>
+      <div class="product-category" data-item="juices-and-smoothies">
+        <div class="product-category-title">
+          <img src="./img/icons/juice-icon.svg" />
+          <h2>Sucos e vitaminas</h2>
+        </div>
+      </div>
+      <div class="product-category" data-item="drinks">
+        <div class="product-category-title">
+          <img src="./img/icons/soda-icon.svg" />
+          <h2>Bebidas</h2>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <span>D'gust • 2022</span>
+    </footer>
+  </body>
+</html>

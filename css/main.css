@@ -6,4 +6,5 @@
 @import "./components/footer.css";
 @import "./components/navbar.css";
 
-@import "./pages/index.css";
+@import "./pages/cardapio.css";
+@import "./pages/principal.css";
