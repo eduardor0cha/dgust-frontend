@@ -22,6 +22,7 @@
 .product-category-title {
   font-weight: bold;
   display: flex;
+  align-items: center;
 }
 
 .product-category-title img {
